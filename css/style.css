@@ -1514,4 +1514,26 @@ body.offcanvas {
   }
 }
 
+/* Ensure row takes full width */
+.colorlib-narrow-content .row {
+  display: flex; /* Align columns side by side */
+  flex-wrap: wrap; /* Ensure columns wrap on smaller screens */
+}
+
+/* Fix column alignment issues */
+.colorlib-narrow-content .col-md-12,
+.colorlib-narrow-content .col-md-7 {
+  flex: 0 0 auto; /* Prevent columns from shrinking */
+  max-width: 100%; /* Prevent overflow issues */
+}
+
+/* Thank You Section Styling */
+.thank-you-section {
+  background-color: #f7f7f7; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
 
