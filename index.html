@@ -25,6 +25,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Bootstrap JavaScript Bundle -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -88,7 +94,7 @@
 				<div class="text-center">
 					<div class="author-img" style="background-image: url(images/about_1.jpg);"></div>
 					<h1 id="colorlib-logo"><a href="index.html">Sai Kiran Nandipati</a></h1>
-					<span class="position"><a href="#">Software Developer / Data Scientist</a></span>
+					<span class="position"><strong>Software Developer / Data Scientist</strong> </span>
 				</div>
 				<nav id="colorlib-main-menu" role="navigation" class="navbar">
 					<div id="navbar" class="collapse">
@@ -127,22 +133,18 @@
 
 			<div id="colorlib-main">
 
-				<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<section id="colorlib-hero" class="js-fullheight" data-section="home" >
 					<a href="#welcome">
-						<div class="flexslider js-fullheight">
-							<ul class="slides">
-								<li>
-									<div class="overlay"></div>
-									<div class="container-fluid">
-
-										<div class="row">
-											<div
-												class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-												<div class="slider-text-inner js-fullheight">
+					<div class="flexslider js-fullheight">
+						<ul class="slides">
+						   <li>
+							   <div class="overlay"></div>
+							   <div class="container-fluid">
+								   <div class="row">
+									   <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+										   <div class="slider-text-inner js-fullheight">
+											   <div class="desc">
 												
-													<div class="slider-text-inner js-fullheight animate__animated animate__fadeInDown animate__slower animate__delay-2s">
-														<div class="desc">
-													<div class="desc">
 
 														<br><br><br><br><br>
 
@@ -237,116 +239,118 @@
 
 				<section class="colorlib-services" data-section="services">
 					<div class="colorlib-narrow-content">
-						<div class="row">
-							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-								data-animate-effect="fadeInLeft">
-								<span class="heading-meta">Interests</span>
-								<h2 class="colorlib-heading">Interests</h2>
-							</div>
+					  <!-- Heading -->
+					  <div class="row">
+						<div class="col-sm-12 col-md-6 col-md-offset-3 animate-box" data-animate-effect="fadeInLeft">
+						  <span class="heading-meta">Interests</span>
+						  <h2 class="colorlib-heading">Interests</h2>
 						</div>
-						<div class="row row-pt-md">
-							<!-- Problem Solving -->
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-1">
-									<span class="icon">
-										<i class="fas fa-lightbulb"></i> <!-- Lightbulb icon -->
-									</span>
-									<div class="desc">
-										<h3>Problem Solving</h3>
-									</div>
-								</div>
+					  </div>
+				  
+					  <!-- Services Rows -->
+					  <div class="row row-pt-md">
+						<!-- Problem Solving -->
+						<div class="col-sm-12 col-md-4 text-center animate-box">
+						  <div class="services color-1">
+							<span class="icon">
+							  <i class="fas fa-lightbulb"></i> <!-- Lightbulb icon -->
+							</span>
+							<div class="desc">
+							  <h3>Problem Solving</h3>
 							</div>
-
-							<!-- Software Development -->
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-5">
-									<span class="icon">
-										<i class="fas fa-laptop-code"></i> <!-- Laptop with code icon -->
-									</span>
-									<div class="desc">
-										<h3>Software Development</h3>
-									</div>
-								</div>
-							</div>
-
-							<!-- Full Stack Development -->
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-2">
-									<span class="icon">
-										<i class="fas fa-layer-group"></i> <!-- Layered group icon -->
-									</span>
-									<div class="desc">
-										<h3>Full Stack Development</h3>
-									</div>
-								</div>
-							</div>
-
-							<!-- Data Engineering -->
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-3">
-									<span class="icon">
-										<i class="fas fa-database"></i> <!-- Database icon -->
-									</span>
-									<div class="desc">
-										<h3>Data Engineering</h3>
-									</div>
-								</div>
-							</div>
-
-							<!-- Machine Learning -->
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-6">
-									<span class="icon">
-										<i class="fas fa-robot"></i> <!-- Robot icon -->
-									</span>
-									<div class="desc">
-										<h3>Machine Learning</h3>
-									</div>
-								</div>
-							</div>
-
-							<!-- Cloud -->
-							<div class="col-md-4 text-center animate-box">
-								<div class="services color-4">
-									<span class="icon">
-										<i class="fas fa-cloud"></i> <!-- Cloud icon -->
-									</span>
-									<div class="desc">
-										<h3>Cloud</h3>
-									</div>
-								</div>
-							</div>
+						  </div>
 						</div>
+				  
+						<!-- Software Development -->
+						<div class="col-sm-12 col-md-4 text-center animate-box">
+						  <div class="services color-5">
+							<span class="icon">
+							  <i class="fas fa-laptop-code"></i> <!-- Laptop with code icon -->
+							</span>
+							<div class="desc">
+							  <h3>Software Development</h3>
+							</div>
+						  </div>
+						</div>
+				  
+						<!-- Full Stack Development -->
+						<div class="col-sm-12 col-md-4 text-center animate-box">
+						  <div class="services color-2">
+							<span class="icon">
+							  <i class="fas fa-layer-group"></i> <!-- Layered group icon -->
+							</span>
+							<div class="desc">
+							  <h3>Full Stack Development</h3>
+							</div>
+						  </div>
+						</div>
+				  
+						<!-- Data Engineering -->
+						<div class="col-sm-12 col-md-4 text-center animate-box">
+						  <div class="services color-3">
+							<span class="icon">
+							  <i class="fas fa-database"></i> <!-- Database icon -->
+							</span>
+							<div class="desc">
+							  <h3>Data Engineering</h3>
+							</div>
+						  </div>
+						</div>
+				  
+						<!-- Machine Learning -->
+						<div class="col-sm-12 col-md-4 text-center animate-box">
+						  <div class="services color-6">
+							<span class="icon">
+							  <i class="fas fa-robot"></i> <!-- Robot icon -->
+							</span>
+							<div class="desc">
+							  <h3>Machine Learning</h3>
+							</div>
+						  </div>
+						</div>
+				  
+						<!-- Cloud -->
+						<div class="col-sm-12 col-md-4 text-center animate-box">
+						  <div class="services color-4">
+							<span class="icon">
+							  <i class="fas fa-cloud"></i> <!-- Cloud icon -->
+							</span>
+							<div class="desc">
+							  <h3>Cloud</h3>
+							</div>
+						  </div>
+						</div>
+					  </div>
 					</div>
-				</section>
+				  </section>
+				  
 
 
-				<div id="colorlib-counter" class="colorlib-counters"
-					style="background-image: url(images/background+_1.webp);" data-stellar-background-ratio="0.5">
-					<div class="overlay"></div>
-					<div class="colorlib-narrow-content">
-						<div class="row">
-						</div>
-						<div class="row">
-							<div class="col-md-4 text-center animate-box">
-								<span class="colorlib-counter js-counter" data-from="0" data-to="8" data-speed="2500"
-									data-refresh-interval="50"></span>
-								<span class="colorlib-counter-label">Projects</span>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<span class="colorlib-counter js-counter" data-from="0" data-to="3" data-speed="2500"
-									data-refresh-interval="50"></span>
-								<span class="colorlib-counter-label">Internships</span>
-							</div>
-							<div class="col-md-4 text-center animate-box">
-								<span class="colorlib-counter js-counter" data-from="0" data-to="5" data-speed="2500"
-									data-refresh-interval="50"></span>
-								<span class="colorlib-counter-label">Organizations</span>
-							</div>
-
-						</div>
-					</div>
-				</div>
+				  <div id="colorlib-counter" class="colorlib-counters"
+				  style="background-image: url(images/background+_1.webp);"
+				  data-stellar-background-ratio="0.5">
+				 <div class="overlay"></div>
+				 <div class="colorlib-narrow-content">
+					 <div class="row">
+						 <!-- Projects -->
+						 <div class="col-md-4 col-sm-12 text-center animate-box">
+							 <span class="colorlib-counter js-counter" data-from="0" data-to="8" data-speed="2500" data-refresh-interval="50"></span>
+							 <span class="colorlib-counter-label">Projects</span>
+						 </div>
+						 <!-- Internships -->
+						 <div class="col-md-4 col-sm-12 text-center animate-box">
+							 <span class="colorlib-counter js-counter" data-from="0" data-to="3" data-speed="2500" data-refresh-interval="50"></span>
+							 <span class="colorlib-counter-label">Internships</span>
+						 </div>
+						 <!-- Organizations -->
+						 <div class="col-md-4 col-sm-12 text-center animate-box">
+							 <span class="colorlib-counter js-counter" data-from="0" data-to="5" data-speed="2500" data-refresh-interval="50"></span>
+							 <span class="colorlib-counter-label">Organizations</span>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+			 
 
 				<section class="colorlib-skills" data-section="skills">
 					<div class="colorlib-narrow-content">
@@ -600,6 +604,7 @@
 					<div class="colorlib-narrow-content">
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+							
 								data-animate-effect="fadeInLeft">
 								<span class="heading-meta">Responsibility</span>
 								<h2 class="colorlib-heading animate-box">Positions of responsibility</h2>
@@ -750,129 +755,147 @@
 
 					<section class="colorlib-work" data-section="work">
 						<div class="colorlib-narrow-content">
-							<div class="row">
-								<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
+						  <!-- Heading -->
+						  <div class="row">
+							<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
 									data-animate-effect="fadeInLeft">
 									<span class="heading-meta">Projects</span>
 									<h2 class="colorlib-heading animate-box">Projects</h2>
 								</div>
+						  </div>
+					  
+						  <!-- Project Rows -->
+						  <div class="row">
+							<!-- Pregnancy Risk Classification -->
+							<div class="col-sm-12 col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							  <div class="project" style="background-image: url(images/pregnency.jpg);">
+								<div class="desc">
+								  <div class="con">
+									<br><br>
+									<h3>
+									  <a href="https://unite.nih.gov/workspace/vector/view/ri.vector.main.workbook.ca00f177-4224-42c9-98a3-ebed67733c52?branch=master"
+										 target="_blank">Pregnancy Risk Classification (ongoing)</a>
+									</h3>
+									<h3>
+									  <a href="https://www.linkedin.com/in/saikirannandipati-147a81210/details/projects/" target="_blank">Project Code</a>
+									</h3>
+									<span>
+									  Developing a machine learning model to classify pregnancies as high-risk or low-risk, improving healthcare decisions via data-driven insights and real-time risk assessments.
+									</span>
+								  </div>
+								</div>
+							  </div>
 							</div>
-
-							<div class="row">
-								<!-- Pregnancy Risk Classification -->
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-									<div class="project" style="background-image: url(images/pregnency.jpg);">
-										<div class="desc">
-											<div class="con">
-												<br><br>
-												<h3><a href="https://unite.nih.gov/workspace/vector/view/ri.vector.main.workbook.ca00f177-4224-42c9-98a3-ebed67733c52?branch=master"
-														target="_blank">Pregnancy Risk Classification (ongoing)</a></h3>
-												<h3><a href="https://www.linkedin.com/in/saikirannandipati-147a81210/details/projects/"
-														target="_blank">Project Code</a></h3>
-												<span>Developing a machine learning model to classify pregnancies as
-													high-risk or low-risk, improving healthcare decisions via
-													data-driven insights and real-time risk assessments.</span>
-											</div>
-										</div>
+					  
+							<!-- Emergency Department Crowding Score -->
+							<div class="col-sm-12 col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							  <div class="project" style="background-image: url(images/ED_crowding.jpg);">
+								<div class="desc">
+								  <div class="con">
+									<h3>
+									  <a href="https://github.com/SaiKiranNandipati/Machine_learning_ED_Crowding" target="_blank">
+										Emergency Department Overcrowding Score Prediction
+									  </a>
+									</h3>
+									<h3>
+									  <a href="https://github.com/SaiKiranNandipati/Machine_learning_ED_Crowding" target="_blank">Project Code</a>
+									</h3>
+									<span>
+									  Developed a reproducible supervised machine learning model with 15 metrics to predict emergency department crowding, aiding clinical decision-making and improving patient care.
+									</span>
+								  </div>
+								</div>
+							  </div>
+							</div>
+					  
+							<!-- Hospital Management System -->
+							<div class="col-sm-12 col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							  <div class="project" style="background-image: url(images/hsp_mng.webp);">
+								<div class="desc">
+								  <div class="con">
+									<h3>
+									  <a href="https://github.com/SaiKiranNandipati/hospitalManagementsystemProject" target="_blank">
+										Hospital Management System
+									  </a>
+									</h3>
+									<h3>
+									  <a href="https://github.com/SaiKiranNandipati/hospitalManagementsystemProject" target="_blank">Project Code</a>
+									</h3>
+									<span>
+									  Developed a Hospital Management System (HMS) website using Spring boot integrated with MySQL to streamline appointment scheduling, doctor availability, and fee payments, enhancing healthcare efficiency and patient care.
+									</span>
+								  </div>
+								</div>
+							  </div>
+							</div>
+					  
+							<!-- Data Insight Dashboard -->
+							<div class="col-sm-12 col-md-6 animate-box" data-animate-effect="fadeInRight">
+							  <div class="project" style="background-image: url(images/data_insight.jpg);">
+								<div class="desc">
+								  <div class="con">
+									<h3>
+									  <a href="https://github.com/SaiKiranNandipati/Data-Information-and-Visualization" target="_blank">
+										Data Insight Dashboard
+									  </a>
+									</h3>
+									<span>
+									  Developed diverse visualizations including regression analysis, performance comparison, collapsible tree structures, and density plots to enable data-driven insights and informed decision-making.
+									</span>
+								  </div>
+								</div>
+							  </div>
+							</div>
+					  
+							<!-- Little Frishys Project -->
+							<div class="col-sm-12 col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							  <div class="project" style="background-image: url(images/little_fishys.jpeg);">
+								<div class="desc">
+								  <div class="con">
+									<h3>
+									  <a href="https://www.littlefrishys.com/" target="_blank">Little Frishys Project</a>
+									</h3>
+									<span>
+									  Developed a Wix-based website for Little Frishys to support small-scale businesses, enabling product browsing, purchases, and admin content management for enhanced operations and customer experience.
+									</span>
+								  </div>
+								</div>
+							  </div>
+							</div>
+					  
+							<!-- Spectrum Sensing Using Matched Filter -->
+							<div class="col-sm-12 col-md-6 animate-box" data-animate-effect="fadeInTop">
+								<div class="project" style="background-image: url(images/spectrum_sensing.webp);">
+								<div class="desc">
+									<div class="con">
+									<h3>
+										<a href="https://www.ijmtst.com/volume8/issue04/57.IJMTST0804165.pdf" target="_blank">Spectrum Sensing Using Matched Filter</a>
+									</h3>
+									<h3>
+										<a href="https://www.ijmtst.com/volume8/issue04/57.IJMTST0804165.pdf" target="_blank">Published Paper</a>
+									</h3>
+									<span>
+										As part of an undergraduate team project under the guidance of an instructor, we utilized MATLAB to implement spectrum sensing using Matched Filter techniques. The project aimed to detect unused licensed spectrum, enabling its efficient utilization by users.
+									</span>
 									</div>
 								</div>
-
-								<!-- Emergency Department Crowding Score -->
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-									<div class="project" style="background-image: url(images/ED_crowding.jpg);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="https://github.com/SaiKiranNandipati/Machine_learning_ED_Crowding"
-														target="_blank">Emergency Department Overcrowding Score
-														Prediction</a></h3>
-												<h3><a href="https://github.com/SaiKiranNandipati/Machine_learning_ED_Crowding"
-														target="_blank">Project Code</a></h3>
-												<span>Developed a reproducible supervised machine learning model with 15
-													metrics to predict emergency department crowding, aiding clinical
-													decision-making and improving patient care.</span>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<!-- Hospital Management System -->
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-									<div class="project" style="background-image: url(images/hsp_mng.webp);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="https://github.com/SaiKiranNandipati/hospitalManagementsystemProject"
-														target="_blank">Hospital Management System</a></h3>
-												<h3><a href="https://github.com/SaiKiranNandipati/hospitalManagementsystemProject"
-														target="_blank">Project Code</a></h3>
-												<span>Developed a Java-based Hospital Management System (HMS) integrated
-													with MySQL to streamline appointment scheduling, doctor
-													availability, and fee payments, enhancing healthcare efficiency and
-													patient care.</span>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<!-- Data Insight Dashboard -->
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-									<div class="project" style="background-image: url(images/data_insight.jpg);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="https://github.com/SaiKiranNandipati/Data-Information-and-Visualization"
-														target="_blank">Data Insight Dashboard</a></h3>
-												<span>Developed diverse visualizations including regression analysis,
-													performance comparison, collapsible tree structures, and density
-													plots to enable data-driven insights and informed
-													decision-making.</span>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<!-- Little Frishys Project -->
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-									<div class="project" style="background-image: url(images/little_fishys.jpeg);">
-										<div class="desc">
-											<div class="con">
-												<h3><a href="https://www.littlefrishys.com/" target="_blank">Little
-														Frishys Project</a></h3>
-												<span>Developed a Wix-based website for Little Frishys to support
-													small-scale businesses, enabling product browsing, purchases, and
-													admin content management for enhanced operations and customer
-													experience.</span>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<!-- Spectrum Sensing Using Matched Filter -->
-								<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-									<div class="project" style="background-image: url(images/spectrum_sensing.webp);">
-										<div class="desc">
-											<div class="con">
-												<h3>Spectrum Sensing Using Matched Filter</h3>
-												<h3><a href="https://www.ijmtst.com/volume8/issue04/57.IJMTST0804165.pdf"
-														target="_blank">Published Paper</a></h3>
-												<span>As part of an undergraduate team project under the guidance of an
-													instructor, we utilized MATLAB to implement spectrum sensing using
-													Matched Filter techniques. The project aimed to detect unused
-													licensed spectrum, enabling its efficient utilization by
-													users.</span>
-											</div>
-										</div>
-									</div>
 								</div>
 							</div>
-
-							<div class="row">
-								<div class="col-md-12 animate-box">
-									<p><a href="https://www.linkedin.com/in/saikirannandipati-147a81210/details/projects/"
-											target="_blank" class="btn btn-primary btn-lg btn-load-more">Load more <i
-												class="icon-reload"></i></a></p>
-								</div>
+							
+					  
+						  <!-- Load More Button -->
+						  <div class="row">
+							<div class="col-12 animate-box">
+							  <p>
+								<a href="https://www.linkedin.com/in/saikirannandipati-147a81210/details/projects/" target="_blank" class="btn btn-primary btn-lg btn-load-more">
+								  Load more <i class="icon-reload"></i>
+								</a>
+							  </p>
 							</div>
+						  </div>
 						</div>
-					</section>
+					  </section>
+					  
 
 
 					<section class="colorlib-achievements" data-section="achievements">
@@ -1076,15 +1099,16 @@
 		}
 
 		const opts = {
-			particleColor: "rgb(44,152,240)",
-			lineColor: "rgb(44,152,240)",
-			particleAmount: 50,
-			defaultSpeed: 1.2,
-			variantSpeed: 2,
-			defaultRadius: 2,
-			variantRadius: 2,
-			linkRadius: 250,
-		};
+				particleColor: "rgb(200,200,200)",  // Black color for particles
+				lineColor: "rgb(80,80,80)",      // Black color for connecting lines
+				particleAmount: 20,           // Number of particles
+				defaultSpeed: 0.8,
+				variantSpeed: 1,
+				defaultRadius: 2,
+				variantRadius: 2,
+				linkRadius: 200,
+};
+
 
 		window.addEventListener("resize", function () {
 			deBouncer();
